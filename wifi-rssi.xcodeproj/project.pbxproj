@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024C45C81FFD227600C9CFAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024C45C71FFD227600C9CFAF /* AppDelegate.swift */; };
+		024C45CA1FFD227600C9CFAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024C45C91FFD227600C9CFAF /* ViewController.swift */; };
+		024C45CD1FFD227600C9CFAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024C45CB1FFD227600C9CFAF /* Main.storyboard */; };
+		024C45CF1FFD227600C9CFAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 024C45CE1FFD227600C9CFAF /* Assets.xcassets */; };
+		024C45D21FFD227600C9CFAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024C45D01FFD227600C9CFAF /* LaunchScreen.storyboard */; };
+		024C45DD1FFD227600C9CFAF /* wifi_rssiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024C45DC1FFD227600C9CFAF /* wifi_rssiTests.swift */; };
+		024C45E81FFD227600C9CFAF /* wifi_rssiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024C45E71FFD227600C9CFAF /* wifi_rssiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		024C45D91FFD227600C9CFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 024C45BC1FFD227600C9CFAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024C45C31FFD227600C9CFAF;
+			remoteInfo = "wifi-rssi";
+		};
+		024C45E41FFD227600C9CFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 024C45BC1FFD227600C9CFAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024C45C31FFD227600C9CFAF;
+			remoteInfo = "wifi-rssi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024C45C41FFD227600C9CFAF /* wifi-rssi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wifi-rssi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		024C45C71FFD227600C9CFAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		024C45C91FFD227600C9CFAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		024C45CC1FFD227600C9CFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		024C45CE1FFD227600C9CFAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		024C45D11FFD227600C9CFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		024C45D31FFD227600C9CFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		024C45D81FFD227600C9CFAF /* wifi-rssiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wifi-rssiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		024C45DC1FFD227600C9CFAF /* wifi_rssiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wifi_rssiTests.swift; sourceTree = "<group>"; };
+		024C45DE1FFD227600C9CFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		024C45E31FFD227600C9CFAF /* wifi-rssiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wifi-rssiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		024C45E71FFD227600C9CFAF /* wifi_rssiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wifi_rssiUITests.swift; sourceTree = "<group>"; };
+		024C45E91FFD227600C9CFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		024C45C11FFD227600C9CFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024C45D51FFD227600C9CFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024C45E01FFD227600C9CFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024C45BB1FFD227600C9CFAF = {
+			isa = PBXGroup;
+			children = (
+				024C45C61FFD227600C9CFAF /* wifi-rssi */,
+				024C45DB1FFD227600C9CFAF /* wifi-rssiTests */,
+				024C45E61FFD227600C9CFAF /* wifi-rssiUITests */,
+				024C45C51FFD227600C9CFAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		024C45C51FFD227600C9CFAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				024C45C41FFD227600C9CFAF /* wifi-rssi.app */,
+				024C45D81FFD227600C9CFAF /* wifi-rssiTests.xctest */,
+				024C45E31FFD227600C9CFAF /* wifi-rssiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		024C45C61FFD227600C9CFAF /* wifi-rssi */ = {
+			isa = PBXGroup;
+			children = (
+				024C45C71FFD227600C9CFAF /* AppDelegate.swift */,
+				024C45C91FFD227600C9CFAF /* ViewController.swift */,
+				024C45CB1FFD227600C9CFAF /* Main.storyboard */,
+				024C45CE1FFD227600C9CFAF /* Assets.xcassets */,
+				024C45D01FFD227600C9CFAF /* LaunchScreen.storyboard */,
+				024C45D31FFD227600C9CFAF /* Info.plist */,
+			);
+			path = "wifi-rssi";
+			sourceTree = "<group>";
+		};
+		024C45DB1FFD227600C9CFAF /* wifi-rssiTests */ = {
+			isa = PBXGroup;
+			children = (
+				024C45DC1FFD227600C9CFAF /* wifi_rssiTests.swift */,
+				024C45DE1FFD227600C9CFAF /* Info.plist */,
+			);
+			path = "wifi-rssiTests";
+			sourceTree = "<group>";
+		};
+		024C45E61FFD227600C9CFAF /* wifi-rssiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				024C45E71FFD227600C9CFAF /* wifi_rssiUITests.swift */,
+				024C45E91FFD227600C9CFAF /* Info.plist */,
+			);
+			path = "wifi-rssiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		024C45C31FFD227600C9CFAF /* wifi-rssi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024C45EC1FFD227600C9CFAF /* Build configuration list for PBXNativeTarget "wifi-rssi" */;
+			buildPhases = (
+				024C45C01FFD227600C9CFAF /* Sources */,
+				024C45C11FFD227600C9CFAF /* Frameworks */,
+				024C45C21FFD227600C9CFAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wifi-rssi";
+			productName = "wifi-rssi";
+			productReference = 024C45C41FFD227600C9CFAF /* wifi-rssi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		024C45D71FFD227600C9CFAF /* wifi-rssiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024C45EF1FFD227600C9CFAF /* Build configuration list for PBXNativeTarget "wifi-rssiTests" */;
+			buildPhases = (
+				024C45D41FFD227600C9CFAF /* Sources */,
+				024C45D51FFD227600C9CFAF /* Frameworks */,
+				024C45D61FFD227600C9CFAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				024C45DA1FFD227600C9CFAF /* PBXTargetDependency */,
+			);
+			name = "wifi-rssiTests";
+			productName = "wifi-rssiTests";
+			productReference = 024C45D81FFD227600C9CFAF /* wifi-rssiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		024C45E21FFD227600C9CFAF /* wifi-rssiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024C45F21FFD227600C9CFAF /* Build configuration list for PBXNativeTarget "wifi-rssiUITests" */;
+			buildPhases = (
+				024C45DF1FFD227600C9CFAF /* Sources */,
+				024C45E01FFD227600C9CFAF /* Frameworks */,
+				024C45E11FFD227600C9CFAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				024C45E51FFD227600C9CFAF /* PBXTargetDependency */,
+			);
+			name = "wifi-rssiUITests";
+			productName = "wifi-rssiUITests";
+			productReference = 024C45E31FFD227600C9CFAF /* wifi-rssiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		024C45BC1FFD227600C9CFAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Zhihui Tang";
+				TargetAttributes = {
+					024C45C31FFD227600C9CFAF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					024C45D71FFD227600C9CFAF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 024C45C31FFD227600C9CFAF;
+					};
+					024C45E21FFD227600C9CFAF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 024C45C31FFD227600C9CFAF;
+					};
+				};
+			};
+			buildConfigurationList = 024C45BF1FFD227600C9CFAF /* Build configuration list for PBXProject "wifi-rssi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 024C45BB1FFD227600C9CFAF;
+			productRefGroup = 024C45C51FFD227600C9CFAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				024C45C31FFD227600C9CFAF /* wifi-rssi */,
+				024C45D71FFD227600C9CFAF /* wifi-rssiTests */,
+				024C45E21FFD227600C9CFAF /* wifi-rssiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		024C45C21FFD227600C9CFAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024C45D21FFD227600C9CFAF /* LaunchScreen.storyboard in Resources */,
+				024C45CF1FFD227600C9CFAF /* Assets.xcassets in Resources */,
+				024C45CD1FFD227600C9CFAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024C45D61FFD227600C9CFAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024C45E11FFD227600C9CFAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		024C45C01FFD227600C9CFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024C45CA1FFD227600C9CFAF /* ViewController.swift in Sources */,
+				024C45C81FFD227600C9CFAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024C45D41FFD227600C9CFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024C45DD1FFD227600C9CFAF /* wifi_rssiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024C45DF1FFD227600C9CFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024C45E81FFD227600C9CFAF /* wifi_rssiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		024C45DA1FFD227600C9CFAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 024C45C31FFD227600C9CFAF /* wifi-rssi */;
+			targetProxy = 024C45D91FFD227600C9CFAF /* PBXContainerItemProxy */;
+		};
+		024C45E51FFD227600C9CFAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 024C45C31FFD227600C9CFAF /* wifi-rssi */;
+			targetProxy = 024C45E41FFD227600C9CFAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		024C45CB1FFD227600C9CFAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				024C45CC1FFD227600C9CFAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		024C45D01FFD227600C9CFAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				024C45D11FFD227600C9CFAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		024C45EA1FFD227600C9CFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		024C45EB1FFD227600C9CFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		024C45ED1FFD227600C9CFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYYCVPYKXT;
+				INFOPLIST_FILE = "wifi-rssi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eBuilder.wifi-rssi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		024C45EE1FFD227600C9CFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYYCVPYKXT;
+				INFOPLIST_FILE = "wifi-rssi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eBuilder.wifi-rssi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		024C45F01FFD227600C9CFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYYCVPYKXT;
+				INFOPLIST_FILE = "wifi-rssiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eBuilder.wifi-rssiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wifi-rssi.app/wifi-rssi";
+			};
+			name = Debug;
+		};
+		024C45F11FFD227600C9CFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYYCVPYKXT;
+				INFOPLIST_FILE = "wifi-rssiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eBuilder.wifi-rssiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wifi-rssi.app/wifi-rssi";
+			};
+			name = Release;
+		};
+		024C45F31FFD227600C9CFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYYCVPYKXT;
+				INFOPLIST_FILE = "wifi-rssiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eBuilder.wifi-rssiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wifi-rssi";
+			};
+			name = Debug;
+		};
+		024C45F41FFD227600C9CFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYYCVPYKXT;
+				INFOPLIST_FILE = "wifi-rssiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eBuilder.wifi-rssiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wifi-rssi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		024C45BF1FFD227600C9CFAF /* Build configuration list for PBXProject "wifi-rssi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024C45EA1FFD227600C9CFAF /* Debug */,
+				024C45EB1FFD227600C9CFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024C45EC1FFD227600C9CFAF /* Build configuration list for PBXNativeTarget "wifi-rssi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024C45ED1FFD227600C9CFAF /* Debug */,
+				024C45EE1FFD227600C9CFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024C45EF1FFD227600C9CFAF /* Build configuration list for PBXNativeTarget "wifi-rssiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024C45F01FFD227600C9CFAF /* Debug */,
+				024C45F11FFD227600C9CFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024C45F21FFD227600C9CFAF /* Build configuration list for PBXNativeTarget "wifi-rssiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024C45F31FFD227600C9CFAF /* Debug */,
+				024C45F41FFD227600C9CFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 024C45BC1FFD227600C9CFAF /* Project object */;
+}
